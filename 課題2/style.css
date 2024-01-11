@@ -1,0 +1,182 @@
+@charset "UTF-8";
+
+html {
+  font-size: 100%;
+}
+
+body {
+  color: #24292e;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto 130px auto;
+  font-size: 0.9rem;
+  padding: 0 4%;
+}
+
+.site-title {
+  line-height: 1px;
+}
+
+.site-title a {
+  display: block;
+}
+
+.sec-title {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 65px;
+}
+
+.header {
+  max-width: 960px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 270px;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+
+.header li img.icon {
+  width: 20px;
+}
+
+.logo {
+  width: 120px;
+}
+
+.mainvisual img {
+  width: 100%;
+  max-width: 1920px;
+  height: 420px;
+  object-fit: cover;
+}
+
+.globalnav {
+  display: flex;
+  list-style-type: none;
+  gap: 30px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.mv {
+  max-width: 1920px;
+  height: 600px;
+  object-fit: cover;
+  margin-bottom: 80px;
+}
+
+.about {
+  text-align: center;
+}
+
+.about-title {
+  display: inline-block;
+}
+
+.about-contents {
+  display: flex;
+  gap: 30px;
+  width: 815px;
+  margin: 0 auto;
+}
+
+.about-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.about-text {
+  text-align: left;
+}
+
+.about-name {
+  font-size: 1rem;
+  margin: 10px 0;
+}
+.works {
+  text-align: center;
+}
+.works-contents {
+  display: flex;
+  justify-content: space-between;
+}
+
+.works-card {
+  width: 32%;
+}
+
+.wrapper ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.wrapper li {
+  width: 31%;
+  margin-bottom: 23px;
+}
+
+.works-contents ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+#news dl {
+  display: flex;
+  flex-wrap: wrap;
+  border-top: solid 1px #c8c8c8;
+  margin-bottom: 20px;
+}
+
+#news dt {
+  width: 20%;
+  border-bottom: solid 1px #c8c8c8;
+  padding: 15px;
+}
+
+#news dd {
+  width: 80%;
+  border-bottom: solid 1px #c8c8c8;
+  padding: 15px;
+}
+
+#contact dl {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+#contact dt {
+  width: 15%;
+}
+
+#contact dd {
+  width: 85%;
+  margin-bottom: 10px;
+}
+
+.footer-text {
+  text-align: center;
+}
